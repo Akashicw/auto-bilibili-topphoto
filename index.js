@@ -65,7 +65,7 @@ async function getLastPubDistance(){
 
     
     try{
-        return diffDays(new Date('2022,0,04'),new Date())+"";
+        return diffDays(new Date(2022,0,04),new Date())+"";
     }catch(err){
         console.log("没有发现投稿");
         console.log(err);
