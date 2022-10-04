@@ -92,7 +92,7 @@ async function painting(){
 
     //计算文字尺寸
     let size = ctx.measureText(days);
-    const txt_x = 2020;
+    const txt_x = 2120;
     const txt_y = 220;
 
     //转换后续的transform的基点
