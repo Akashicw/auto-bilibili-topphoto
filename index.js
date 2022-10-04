@@ -65,7 +65,7 @@ async function getLastPubDistance(){
 
     
     try{
-        return diffDays(new Date(res.data.data.list.vlist[0].created*1000),new Date())+"";
+        return diffDays(new Date('2022,0,04'),new Date())+"";
     }catch(err){
         console.log("没有发现投稿");
         console.log(err);
@@ -85,7 +85,7 @@ async function painting(){
 
     //设置文字颜色和字号，字体
     ctx.fillStyle = "#e6433a";
-    ctx.font = '97px hanzi';
+    ctx.font = '110px hanzi';
 
     //获得鸽的天数
     let days = await getLastPubDistance();
