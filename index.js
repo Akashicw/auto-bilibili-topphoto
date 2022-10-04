@@ -85,7 +85,7 @@ async function painting(){
 
     //设置文字颜色和字号，字体
     ctx.fillStyle = "#e6433a";
-    ctx.font = '120px hanzi';
+    ctx.font = '200px hanzi';
 
     //获得鸽的天数
     let days = await getLastPubDistance();
